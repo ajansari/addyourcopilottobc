@@ -1,3 +1,4 @@
+// This shows an example of your custom copilot / agent deployed into a blank CardPart page
 page 80895 "Copilot Guide Part"
 {
     PageType = CardPart;

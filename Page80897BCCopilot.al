@@ -33,7 +33,7 @@ page 80897 "BC Copilot"
                    '    zoom: 1.2;' +
                    '}' +
                    '</style>' +
-                   '<center><iframe src="<replace this with your custom copilot / agent's URL" ' +
+                   '<center><iframe src="<replace this with your custom copilot / agent URL" ' +
                    'frameborder="0" ' +
                    'style="width: 98%; height: 98%;">' +
                    '</iframe></center>' +

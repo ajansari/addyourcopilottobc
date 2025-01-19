@@ -32,11 +32,15 @@ page 80895 "Copilot Guide Part"
                    '    zoom: 1.0;' +
                    '}' +
                    '</style>' +
-                   '<center><iframe src="https://copilotstudio.preview.microsoft.com/environments/75f08cb7-7e0e-eb8e-8737-33b11299db04/bots/crb18_copilotGuide/webchat?__version__=2" ' +
+                   '<center><iframe src="<your agent deployment URL goes here - see comments below procedure>" ' +
                    'frameborder="0" ' +
                    'style="width: 98%; height: 98%;">' +
                    '</iframe></center>' +
                    '</body>' +
                    '</html>';
     end;
+    // When you deploy an agent from Copilot Studio for a website, you will receive an embed code chunk similar to this:
+    // <!DOCTYPE html><html><body><iframe src="https://copilotstudio.preview.microsoft.com/environments/###################/bots/crb18_######/webchat?__version__=2" frameborder="0" style="width: 100%; height: 100%;"></iframe></body></html>
+    // Simply copy the URL portion with all the parameters from the above embed code (everything appearing between the two double quotes) and paste them in the placeholder inside the procedure.
+
 }

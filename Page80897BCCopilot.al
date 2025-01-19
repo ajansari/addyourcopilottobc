@@ -35,7 +35,7 @@ page 80897 "BC Copilot"
                    '</style>' +
                    '<center><iframe src="<replace this with your custom copilot / agent URL" ' +
                    'frameborder="0" ' +
-                   'style="width: 98%; height: 90%;">' +
+                   'style="width: 98%; height: 85%;">' +
                    '</iframe></center>' +
                    '</body>' +
                    '</html>';

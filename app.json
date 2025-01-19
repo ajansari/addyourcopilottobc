@@ -1,7 +1,7 @@
 {
-  "id": "30c37d64-2af0-4ff2-b933-608b4bde8ef5",
-  "name": "Ask Ai-AJ Copilot",
-  "publisher": "OnlyCopilotFans",
+  "id": "30c37d64-2af0-4ff2-b933-608b4bde8ef5", //Change the GUID
+  "name": "AJ's Copilot", //Change the app name
+  "publisher": "OnlyCopilotFans", //Change the publisher name
   "version": "1.0.0.0",
   "brief": "",
   "description": "",
@@ -16,7 +16,7 @@
   "application": "25.0.0.0",
   "idRanges": [
     {
-      "from": 80895,
+      "from": 80895, //You may need to change the from and to ranges, and the object ids for your al objects
       "to": 80899
     }
   ],

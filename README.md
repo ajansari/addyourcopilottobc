@@ -14,3 +14,6 @@ I have included some formatting like a border with rounded edges, page zoom, etc
 At least for Copilot Studio, you will either need to disable authentication or set manual authentication for your agent. Copilots / Agents deployed with the "Authenticate with Microsoft" do not allow for deployment on a website, and therefore cannot be added into BC as a Card or CardPart. 
 
 As of January 2025, there is no possibility to deploy your custom Agents built in Copilot Studio as a declarative agent or plugin for Business Central's own Copilot chat experience.
+
+# pinning your agent
+In the repository, I have not included code for pinning the card page with your agent to an Action ribbon or the home screen in Business Central. You can search for the Page by name to launch it, and you can bookmark it to pin it to your home / Role Center in Business Central.
